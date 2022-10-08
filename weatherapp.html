@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forcasting Web app</title>
+    <link rel="stylesheet" href="weatherapp.css">
+</head>
+<body>
+
+    <div class="title">
+        Web Weather Forcasting App
+    </div>
+    <div class="par">
+        <div class="myparent">
+            <div class="main">
+                <div class="main0">
+                    <div class="c-search">
+                       <div><p class="city" id="city"> </p></div>
+                       <div class="search_div">
+                           <input type="text" placeholder="Enter City Name..." id="search">
+                           <button type="submit" id="butt" class="button">Search</button>
+                        </div>
+                    </div>
+                    <div class="current">
+                        <p id="tdy"></p>
+                        <p id="today"></p>
+                        <p class="temp"> <span id="tmp_logo"></span><span id="temp"></span> </p>
+                    </div>
+                    <div class="cmd"><p class="env" id="env"></p></div>
+                         <div class="data1">
+                             <p><span style="background:rgba(254,189,132,0.5);color:aliceblue;border-radius: 25px;padding:8px">Current Forecast:</span> &nbsp &nbsp</p>
+                            <p class="winds"><span id="sunrise"></span></p>
+                            <p class="visi"><span id="sunset"></span></p>
+                        </div>
+                        <div class="data2">
+                            <p class="hum"><span id="hum"></span> </p>
+                            <p class="dew"><span id="dew"></span></p>
+                            <p class="wind"><span id="wind"></span></p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="we_data">
+            <div class="week_div">
+                <h4 style="color:aliceblue;font-size:19px;background:rgba(254,189,132,0.5);text-align:center;padding:10px;border-radius:40px;font-weight:1100">Daily Forecast</h4>
+                <div class="days_data" id="days_data">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="./weatherapp.js"></script>
+</body>
+</html>

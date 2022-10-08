@@ -1,0 +1,199 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html { 
+    background: linear-gradient(45deg,rgba(34, 40, 53, 0.7), rgba(7, 10, 17, 0.1)),url('https://th.bing.com/th/id/OIP.gZEBAOkAS7LcsS80ba-5KQHaEK?w=301&h=180&c=7&r=0&o=5&pid=1.7' ) no-repeat center center fixed; 
+
+background-size: cover;
+ background-attachment: fixed;
+}
+.title{
+    font-size: 28px ;
+    color: coral;
+    text-decoration: underline;
+    margin :50px;
+}
+.myparent{
+    width: 100%;
+    margin: auto;
+}
+.c-search{
+    display: flex;
+    white-space: nowrap;
+    justify-content: space-between;
+}
+.search_div{
+    display: flex;
+    justify-content:right;
+    margin-top: 2px;
+    margin-right: 160px;
+}
+#search{
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #f5f2f2b9; 
+    color: rgb(14, 13, 13);
+    font-size: 105%;
+    width:250px;
+    margin-left:400px;
+}
+input{
+    padding-left: 10px;
+}
+#butt{
+    border: none;
+    padding: 10px;
+    border-radius:50px ;
+    margin-left: 0.5em;
+    height: 44px;
+    width: 100px;
+    outline: none;
+    background: #4968f0b9;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    margin-right:10px;
+}
+.main{   
+    margin: auto;
+    margin-top: 30px;
+}
+.current{
+    margin-left:4px;
+    font-size: 18px;
+    font-weight: 450;
+}
+.cmd{
+    margin-left:300px;
+    font-size:30px;
+    color: rgba(199, 241, 8, 0.75);
+    border-radius: 15px;
+    text-transform: capitalize;
+}
+.main0{
+    padding: 40px;
+}
+.city{
+    font-size:25px;
+    margin-left:320px;
+    color: white;
+    font-weight: 700;
+}
+.temp{
+    font-size: 60px;
+    display: flex;
+    width: 1100px;
+    margin: auto;
+    margin-top: 10px;
+}
+#tmp_logo>img{
+    max-width: 100px;
+}
+#temp{
+    margin-top: 18px;
+    color:aliceblue;
+}
+.data1{
+    display: flex;   
+    padding: 10px;
+    font-size: 19px;
+    margin-left:52%;
+}
+.visi{
+    margin-left: 20px;
+}
+.data2{    
+    padding: 10px;
+}
+.dew{
+    margin-left: 65%;
+    margin-top: 20px;
+    font-size: 19px;
+}
+.we_data{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.hours_data{
+    display: flex;
+    overflow:auto;
+    gap: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+.day_card{
+    padding: 8px;
+    border: 1px solid rgb(210, 207, 207);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: rgba(146, 213, 245, 0.5);
+}
+.hum{
+    margin-left:65%;
+    font-size:19px;
+}
+.day{
+    font-size: 15px;
+}
+.day_tmp{
+    font-size: 12px;
+    margin-top: 5px;
+}
+.weth_logo{
+    width: 30px;
+}
+.hour_weth{
+    font-size: 14px;
+}
+.wind{
+    font-size: 19px;
+    margin-left: 65%;
+    margin-top:20px;
+}
+.week_div{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.days_data{
+    display: flex;
+    overflow:auto;
+    gap: 10px;
+    margin: auto;
+    margin-top: 10px;  
+}
+.tmp_div{
+    display: flex;
+}
+.sun_div{
+    display: flex;
+    margin-top: 8px;
+}
+.sunset{
+    margin-left: 10px;
+}
+.min_temp{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.max_temp{
+    font-size: 17px;
+}
+.weth{
+    font-size: 13px;
+    margin-top: 5px;
+}
+#today{
+    margin-left: 270px;
+    margin-top: 10px;   
+}
+#tdy{
+    margin-left: 260px;
+    margin-top:10px;
+    color:coral;
+    font-size: 20px;
+}
